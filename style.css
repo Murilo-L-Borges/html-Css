@@ -79,8 +79,8 @@ header .coluna img{
     max-width: 100%;
 }
 header .coluna h1{
-    font-size: 1.5rem;
-    color:var(--corTextoSecudaria);
+    font-size: 1.9rem;
+    color:#3c3c3c;
 }
 header .coluna p{
     font-size: 1rem;
@@ -255,9 +255,13 @@ label span{
 .ativar-dark:checked ~ .dark-mode main{
     background-color:var(--corBackgroundSecundaria) ;
 } 
+.ativar-dark:checked ~ .dark-mode main .coluna section{
+    color:#a0a0a0;
+}
 
-
-
+.ativar-dark:checked ~ .dark-mode header .coluna-direita a{
+    color: #a0a0a0;
+}
 
 /* @MEDIA */
 @media only screen and (min-width: 768px){
@@ -284,6 +288,7 @@ label span{
     header .coluna-direita a{
         transition: all 0.8s;
         opacity: .5;
+        color:#a0a0a0 ;
     }
 
     header .coluna-direita a:hover{
