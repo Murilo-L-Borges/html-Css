@@ -375,7 +375,7 @@ label  span {
     }
     main .coluna section .topo-direita{
         top: -2px;
-        left: -2px;
+        left: -5px;
         animation-name: aumentarLargura, aumentarAltura;
         animation-duration: 1s, 1s;
         animation-delay: 2s, 3s;
